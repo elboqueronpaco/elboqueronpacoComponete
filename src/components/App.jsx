@@ -1,9 +1,17 @@
 import React from 'react'
+import { Global } from '../elements/Global'
+import { MainFormStyle } from '../elements/forms/MainForm'
+import { TitleForm } from '../elements/forms/TitleForm'
 
 export default function App() {
     return (
-        <main>
-           <h1>React con webpack2</h1> 
-        </main>
+        
+        <>
+        <Global />
+
+           <MainFormStyle>
+                <TitleForm>Titulo del Fomulario</TitleForm>
+           </MainFormStyle> 
+        </>
     )
 }
