@@ -1,0 +1,9 @@
+{
+  "name": "ElboqueronpacoComponents",
+  "version": "1.0.0",
+  "description": "Creación de Componentes HTML en react",
+  "main": "index.js",
+  "repository": "https://github.com/elboqueronpaco/elboqueronpacoComponete.git",
+  "author": "elboqueronpaco <elboqueronpaco@gmail.com>",
+  "license": "MIT"
+}
